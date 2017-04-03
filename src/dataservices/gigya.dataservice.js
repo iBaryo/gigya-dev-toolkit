@@ -249,7 +249,7 @@ class GigyaDataservice {
 
     for(const idpConfig of _.get(siteConfig, 'saml.idp.registeredIdPs', [])) {
       await GigyaDataservice._api({
-        endpoint: 'fidm.saml.fidm.registerIdP',
+        endpoint: 'fidm.saml.registerIdP',
         userKey,
         userSecret,
         params: {

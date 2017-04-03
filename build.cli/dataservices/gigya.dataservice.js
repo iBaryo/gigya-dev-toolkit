@@ -418,7 +418,7 @@ var GigyaDataservice = function () {
               idpConfig = _step.value;
               _context2.next = 24;
               return _regenerator2.default.awrap(GigyaDataservice._api({
-                endpoint: 'fidm.saml.fidm.registerIdP',
+                endpoint: 'fidm.saml.registerIdP',
                 userKey: userKey,
                 userSecret: userSecret,
                 params: {
